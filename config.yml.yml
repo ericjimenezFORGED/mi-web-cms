@@ -1,0 +1,78 @@
+backend:
+  name: test-repo
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Contenido del Sitio"
+    files:
+      - file: "data/site.json"
+        label: "General"
+        name: "general"
+        fields:
+          - { label: "Nombre del negocio", name: "business_name", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Teléfono", name: "phone", widget: "string" }
+          - { label: "WhatsApp (solo dígitos con prefijo país)", name: "whatsapp", widget: "string" }
+          - { label: "Título Hero (permite HTML)", name: "hero_title", widget: "text" }
+          - { label: "Subtítulo Hero", name: "hero_subtitle", widget: "text" }
+          - { label: "Imagen Hero", name: "hero_image", widget: "image" }
+          - label: "Secciones"
+            name: "sections"
+            widget: "object"
+            fields:
+              - label: "Monobloque"
+                name: "monoblock"
+                widget: "object"
+                fields:
+                  - { label: "Descripción", name: "description", widget: "text" }
+                  - { label: "Etiqueta de precio", name: "price_label", widget: "string" }
+                  - { label: "Imagen", name: "image", widget: "image" }
+                  - label: "Características"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Característica", name: "feature", widget: "string" }
+                  - { label: "Enlace de pago (Stripe/PayPal)", name: "pay_link", widget: "string", required: false }
+              - label: "2 Piezas"
+                name: "two_piece"
+                widget: "object"
+                fields:
+                  - { label: "Descripción", name: "description", widget: "text" }
+                  - { label: "Etiqueta de precio", name: "price_label", widget: "string" }
+                  - { label: "Imagen", name: "image", widget: "image" }
+                  - label: "Características"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Característica", name: "feature", widget: "string" }
+                  - { label: "Enlace de pago (Stripe/PayPal)", name: "pay_link", widget: "string", required: false }
+              - label: "3 Piezas"
+                name: "three_piece"
+                widget: "object"
+                fields:
+                  - { label: "Descripción", name: "description", widget: "text" }
+                  - { label: "Etiqueta de precio", name: "price_label", widget: "string" }
+                  - { label: "Imagen", name: "image", widget: "image" }
+                  - label: "Características"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Característica", name: "feature", widget: "string" }
+                  - { label: "Enlace de pago (Stripe/PayPal)", name: "pay_link", widget: "string", required: false }
+          - label: "Personalización (tarjetas)"
+            name: "customization"
+            widget: "object"
+            fields:
+              - label: "Tarjetas"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "title", widget: "string" }
+                  - { label: "Descripción", name: "description", widget: "text", required: false }
+          - label: "Galería"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - { label: "Imagen", name: "image", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string", required: false }

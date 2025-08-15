@@ -1,0 +1,60 @@
+{
+  "business_name": "Forged",
+  "email": "info@tudominio.com",
+  "phone": "+34 600 000 000",
+  "whatsapp": "34600000000",
+  "hero_title": "Personaliza<br>tu coche.",
+  "hero_subtitle": "Monobloque, 2 y 3 piezas. Acabados premium, medidas a medida y grabados.",
+  "hero_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1600&auto=format&fit=crop",
+  "sections": {
+    "monoblock": {
+      "description": "Fresadas de una sola pieza para máxima rigidez y peso optimizado.",
+      "price_label": "Desde 2.500 €",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1600&auto=format&fit=crop",
+      "features": [
+        "Acabados a medida",
+        "Grabado opcional",
+        "Válvula oculta"
+      ],
+      "pay_link": ""
+    },
+    "two_piece": {
+      "description": "Centro y aro separados: estética diferenciada y configuraciones versátiles.",
+      "price_label": "Desde 3.500 €",
+      "image": "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1600&auto=format&fit=crop",
+      "features": [
+        "Labio pulido opcional",
+        "Múltiples patrones de tornillería",
+        "Colores personalizados"
+      ],
+      "pay_link": ""
+    },
+    "three_piece": {
+      "description": "Doble aro + centro: libertad máxima de offsets, anchos y acabados; totalmente reparables.",
+      "price_label": "Desde 4.500 €",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop",
+      "features": [
+        "Reparables y reconfigurables",
+        "Anchos extremos disponibles",
+        "Combina colores y tornillería"
+      ],
+      "pay_link": ""
+    }
+  },
+  "customization": {
+    "cards": [
+      { "title": "Medidas y ET", "description": "Diámetros de 18–24\", anchos y offsets a medida para tu coche." },
+      { "title": "PCD y buje", "description": "Ajuste exacto a tu patrón de tornillería y diámetro de buje." },
+      { "title": "Acabados", "description": "Cepillado, pulido, anodizado, pintura candy y más." },
+      { "title": "Color del aro", "description": "Labios pulidos, tintados o pintados; interiores a juego." },
+      { "title": "Tornillería", "description": "Acero o titanio, diferentes acabados y colores." },
+      { "title": "Grabados", "description": "Textos y logos personalizados en el aro o el centro." }
+    ]
+  },
+  "gallery": [
+    { "image": "https://images.unsplash.com/photo-1493238792000-8113da705763?w=800&q=60&auto=format&fit=crop", "alt": "Wheel 1" },
+    { "image": "https://images.unsplash.com/photo-1563720224476-0d2efb4c7e6c?w=800&q=60&auto=format&fit=crop", "alt": "Wheel 2" },
+    { "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=60&auto=format&fit=crop", "alt": "Wheel 3" },
+    { "image": "https://images.unsplash.com/photo-1516156008625-3a1a1fcffb61?w=800&q=60&auto=format&fit=crop", "alt": "Wheel 4" }
+  ]
+}
